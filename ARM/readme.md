@@ -39,3 +39,7 @@ gef> br _start
 Breakpoint 1 at 0x8054
 gef> run
 ```
+
+## ARM Instructions set
+
+![Instruction set table](Instructions.png)
