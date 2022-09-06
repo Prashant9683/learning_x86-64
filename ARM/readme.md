@@ -43,3 +43,9 @@ gef> run
 ## ARM Instructions set
 
 ![Instruction set table](Instructions.png)
+
+Read in depth [here](https://azeria-labs.com/arm-instruction-set-part-3/)
+
+## Memory Instructions: Load and store
+
+ARM uses a load-store model for memory access which means that only load/store (LDR and STR) instructions can access memory. While on x86 most instructions are allowed to directly operate on data in memory, on ARM data must be moved from memory into registers before being operated on. This means that incrementing a 32-bit value at a perticular memory address on ARM would require three types of instructions (load, increment and store) to first load the value at a perticular address into a register, increment it within the register and store it back to the memory from the register.
